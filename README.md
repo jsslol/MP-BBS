@@ -28,11 +28,11 @@ post) the message” (see Figure 1 and 2 for an example).
 
 (h) Right after each process enters the critical section (for accessing the posted message), each
 process outputs (displays) the following message:
- “R# starts reading the message: the contents of the message”, if it is a reader and # = 1, 2,
+ “R# starts reading the message: the contents of the message”, if it is a reader and # = 1, 2,
 3, or 4.
 
  “W# starts posting a new message: the contents of the new message”, if it is a writer and
-# is 1 or 2.
+ is 1 or 2.
 
 (i) Right before a reader leaves its critical section, each reader outputs (displays) the following
 message:
